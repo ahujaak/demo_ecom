@@ -26,6 +26,8 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'cancancan', '~> 1.10'
 gem 'jquery-turbolinks'
+gem 'sidekiq'
+gem "devise-async"
 
 
 # Use ActiveModel has_secure_password
