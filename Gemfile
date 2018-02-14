@@ -24,10 +24,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'bootstrap-sass'
-gem 'cancancan', '~> 1.10'
 gem 'jquery-turbolinks'
 gem 'sidekiq'
 gem "devise-async"
+gem 'activeadmin'
+gem 'cancancan', '~> 2.0'
 
 
 # Use ActiveModel has_secure_password
@@ -49,4 +50,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
